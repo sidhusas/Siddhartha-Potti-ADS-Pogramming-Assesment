@@ -1,0 +1,30 @@
+[2026-11-16 22:32:35] Start AE visualizations | R version 4.6.2 (2026-10-29) | ggplot2 4.0.4 | pharmaverseadam 1.4.0
+[2026-11-16 22:32:35] ADAE records: 1191 | subjects in ADAE: 225 | ADSL subjects: 306 | teae_only: FALSE | Plot 2 denominator: adae
+
+Plot 1 data (AE records by arm and severity):
+                ACTARM    AESEV n_ae
+1              Placebo     MILD  219
+2              Placebo MODERATE   74
+3              Placebo   SEVERE    8
+4 Xanomeline High Dose     MILD  300
+5 Xanomeline High Dose MODERATE  126
+6 Xanomeline High Dose   SEVERE   10
+7  Xanomeline Low Dose     MILD  251
+8  Xanomeline Low Dose MODERATE  178
+9  Xanomeline Low Dose   SEVERE   25
+[2026-11-16 22:32:35] Saved /cloud/project/ae_severity_by_treatment.png
+
+Plot 2 data (top 10 AETERM, subjects, % and 95% Clopper-Pearson CI):
+                        AETERM n_subj n_total   pct lower upper
+1                     PRURITUS     57     225 25.33 19.79 31.54
+2    APPLICATION SITE PRURITUS     50     225 22.22 16.97 28.23
+3                     ERYTHEMA     38     225 16.89 12.24 22.44
+4    APPLICATION SITE ERYTHEMA     30     225 13.33  9.18 18.48
+5                         RASH     29     225 12.89  8.80 17.98
+6                    DIZZINESS     22     225  9.78  6.23 14.43
+7  APPLICATION SITE DERMATITIS     21     225  9.33  5.87 13.91
+8  APPLICATION SITE IRRITATION     21     225  9.33  5.87 13.91
+9                    DIARRHOEA     18     225  8.00  4.81 12.35
+10           SINUS BRADYCARDIA     17     225  7.56  4.46 11.82
+[2026-11-16 22:32:36] Saved /cloud/project/top10_adverse_events.png
+[2026-11-16 22:32:36] SUCCESS: zero warnings and zero errors in this run
