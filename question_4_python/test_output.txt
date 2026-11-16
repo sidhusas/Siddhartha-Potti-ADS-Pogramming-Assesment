@@ -1,0 +1,18 @@
+Mode: MOCK LLM (offline, no model used)
+
+Q: Give me the subjects who had Adverse events of Moderate severity.
+  column=AESEV  value=MODERATE
+  unique subjects: 136 (independent recount: 136) OK
+  first 5 IDs: ['01-701-1023', '01-701-1047', '01-701-1097', '01-701-1111', '01-701-1115']
+
+Q: Which patients had a Headache?
+  column=AETERM  value=HEADACHE
+  unique subjects: 16 (independent recount: 16) OK
+  first 5 IDs: ['01-701-1180', '01-701-1302', '01-701-1363', '01-701-1383', '01-704-1388']
+
+Q: List subjects with Cardiac adverse events.
+  column=AESOC  value=CARDIAC
+  unique subjects: 44 (independent recount: 44) OK
+  first 5 IDs: ['01-701-1023', '01-701-1047', '01-703-1175', '01-703-1299', '01-703-1335']
+
+RESULT: all 3 queries matched the recount
