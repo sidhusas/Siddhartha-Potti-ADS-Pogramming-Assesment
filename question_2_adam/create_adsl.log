@@ -1,0 +1,37 @@
+[2026-11-16 20:47:54] Start ADSL creation
+[2026-11-16 20:47:54] R version 4.6.2 (2026-10-29) | admiral 1.5.0 | pharmaversesdtm 1.5.0
+[2026-11-16 20:47:54] DM subjects: 306
+[2026-11-16 20:48:08] Checks passed
+
+AGEGR9 counts:
+         
+            2   3
+  >50       0 305
+  18 - 50   1   0
+
+ITTFL counts:
+   
+    Placebo Screen Failure Xanomeline High Dose Xanomeline Low Dose
+  Y      86             52                   84                  84
+
+TRTSTMF counts:
+
+   H <NA> 
+ 254   52 
+
+Missing TRTSDTM: 52  Missing LSTAVLDT: 0 
+
+TRTSDTM / LSTAVLDT first rows:
+       USUBJID AGE AGEGR9 AGEGR9N    TRTSDTM TRTSTMF             TRTEDTM ITTFL   LSTAVLDT
+1  01-701-1015  63    >50       3 2014-01-02       H 2014-07-02 23:59:59     Y 2014-07-02
+2  01-701-1023  64    >50       3 2012-08-05       H 2012-09-01 23:59:59     Y 2013-02-18
+3  01-701-1028  71    >50       3 2013-07-19       H 2014-01-14 23:59:59     Y 2014-01-14
+4  01-701-1033  74    >50       3 2014-03-18       H 2014-03-31 23:59:59     Y 2014-09-15
+5  01-701-1034  77    >50       3 2014-07-01       H 2014-12-30 23:59:59     Y 2014-12-30
+6  01-701-1047  85    >50       3 2013-02-12       H 2013-03-09 23:59:59     Y 2013-07-28
+7  01-701-1057  59    >50       3       <NA>    <NA>                <NA>     Y 2013-12-20
+8  01-701-1097  68    >50       3 2014-01-01       H 2014-07-09 23:59:59     Y 2014-07-09
+9  01-701-1111  81    >50       3 2012-09-07       H 2012-09-16 23:59:59     Y 2013-02-22
+10 01-701-1115  84    >50       3 2012-11-30       H 2013-01-23 23:59:59     Y 2013-05-20
+[2026-11-16 20:48:08] Saved adsl.rds and adsl.csv to /cloud/project/adsl_output (306 rows, 37 columns)
+[2026-11-16 20:48:08] SUCCESS: zero warnings and zero errors in this run
