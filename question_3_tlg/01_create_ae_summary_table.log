@@ -1,0 +1,20 @@
+[2026-11-16 22:20:50] Start AE summary table | R version 4.6.2 (2026-10-29) | gtsummary 2.6.1 | pharmaverseadam 1.4.0
+[2026-11-16 22:20:50] ADAE records: 1191 | ADSL subjects: 306 | safety population only: FALSE
+[2026-11-16 22:20:51] Saved /cloud/project/ae_summary_table.html
+[2026-11-16 22:20:51] Saved ae_summary_table.csv (254 rows)
+
+First rows of the table:
+                                                  label   stat_1 stat_2   stat_3   stat_4    stat_0
+1                                Treatment Emergent AEs 65 (76%) 0 (0%) 68 (94%) 84 (88%) 217 (71%)
+2  GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS 21 (24%) 0 (0%) 36 (50%) 51 (53%) 108 (35%)
+3                             APPLICATION SITE PRURITUS 6 (7.0%) 0 (0%) 21 (29%) 23 (24%)  50 (16%)
+4                             APPLICATION SITE ERYTHEMA 3 (3.5%) 0 (0%) 14 (19%) 13 (14%) 30 (9.8%)
+5                           APPLICATION SITE DERMATITIS 5 (5.8%) 0 (0%) 7 (9.7%) 9 (9.4%) 21 (6.9%)
+6                           APPLICATION SITE IRRITATION 3 (3.5%) 0 (0%)  9 (13%) 9 (9.4%) 21 (6.9%)
+7                             APPLICATION SITE VESICLES 1 (1.2%) 0 (0%) 5 (6.9%) 5 (5.2%) 11 (3.6%)
+8                                               FATIGUE 1 (1.2%) 0 (0%) 5 (6.9%) 5 (5.2%) 11 (3.6%)
+9                                     OEDEMA PERIPHERAL 2 (2.3%) 0 (0%) 2 (2.8%) 1 (1.0%)  5 (1.6%)
+10                            APPLICATION SITE SWELLING   0 (0%) 0 (0%) 2 (2.8%) 1 (1.0%)  3 (1.0%)
+11                           APPLICATION SITE URTICARIA   0 (0%) 0 (0%) 1 (1.4%) 2 (2.1%)  3 (1.0%)
+12                                               CHILLS 1 (1.2%) 0 (0%) 1 (1.4%) 1 (1.0%)  3 (1.0%)
+[2026-11-16 22:20:51] SUCCESS: zero warnings and zero errors in this run
